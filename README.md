@@ -1,7 +1,7 @@
 # Boredom Breaker 🎯
 
 [![Azure DevOps](https://img.shields.io/badge/Deployed%20via-Azure%20DevOps-blue)](https://dev.azure.com/Junaid-Arif/Boredom%20Breaker)
-[![Azure App Service](https://img.shields.io/badge/Hosted%20on-Azure%20App%20Service-brightgreen)](https://boredom-breaker-YOUR_AZURE_URL)
+[![Azure App Service](https://img.shields.io/badge/Hosted%20on-Azure%20App%20Service-brightgreen)](boredom-breaker-gfdxgsbqfggnerfn.canadacentral-01.azurewebsites.net)
 
 This repository contains the source code for **Boredom Breaker**, an engaging web app that fetches activity suggestions using the **Bored API**. Users can receive random suggestions or filter activities by type and participants. The project focuses on working with **RESTful APIs**, **query parameters**, and **server-side API requests** using **Axios**, while also incorporating modern, responsive front-end design.
 
@@ -10,7 +10,7 @@ This repository contains the source code for **Boredom Breaker**, an engaging we
 ## 🖥️ Live Website
 
 You can access the live version of Boredom Breaker here:  
-👉 **[Boredom Breaker](https://boredom-breaker-YOUR_AZURE_URL)** (Hosted on Microsoft Azure)
+👉 **[Boredom Breaker](boredom-breaker-gfdxgsbqfggnerfn.canadacentral-01.azurewebsites.net)** (Hosted on Microsoft Azure)
 
 Link to **[Azure DevOps Project](https://dev.azure.com/Junaid-Arif/Boredom%20Breaker)**
 
@@ -91,9 +91,11 @@ The **Boredom Breaker** app is hosted on **Microsoft Azure App Service** with th
 
 4. **Added Azure DevOps as a Git Remote**
 
-   - Used the following to connect local code to Azure DevOps:
+   - Used the following command (as provided by Azure DevOps):
+
      ```bash
-     git remote add azure https://Junaid-Arif@dev.azure.com/Junaid-Arif/Boredom%20Breaker/_git/Boredom%20Breaker
+     git remote add origin https://Junaid-Arif@dev.azure.com/Junaid-Arif/Boredom%20Breaker/_git/Boredom%20Breaker
+     git push -u origin --all
      ```
 
 5. **Push to Both Remotes**
@@ -129,9 +131,14 @@ git add .
 git commit -m "Your commit message"
 git push origin main   # Pushes to GitHub
 git push azure main    # Pushes to Azure DevOps and triggers deployment
+```
+
+---
+
 🤝 Contribution
 While this project is primarily for learning and portfolio purposes, feel free to fork the repository and submit a pull request if you'd like to contribute ideas for new features or improvements!
 
+---
+
 📄 License
 This project is open-source and available for anyone to use, modify, and build upon for their own learning or projects.
-```
