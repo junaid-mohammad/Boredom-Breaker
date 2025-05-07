@@ -10,7 +10,7 @@ This repository contains the source code for **Boredom Breaker**, an engaging we
 ## 🖥️ Live Website
 
 You can access the live version of Boredom Breaker here:  
-👉 **[Boredom Breaker](boredom-breaker-gfdxgsbqfggnerfn.canadacentral-01.azurewebsites.net)** (Hosted on Microsoft Azure)
+👉 **[Boredom Breaker](https://boredom-breaker-gfdxgsbqfggnerfn.canadacentral-01.azurewebsites.net/)** (Hosted on Microsoft Azure)
 
 Link to **[Azure DevOps Project](https://dev.azure.com/Junaid-Arif/Boredom%20Breaker)**
 
