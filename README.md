@@ -3,7 +3,7 @@
 [![Azure DevOps](https://img.shields.io/badge/Deployed%20via-Azure%20DevOps-blue)](https://dev.azure.com/Junaid-Arif/Boredom%20Breaker)
 [![Azure App Service](https://img.shields.io/badge/Hosted%20on-Azure%20App%20Service-brightgreen)](https://boredom-breaker-gfdxgsbqfggnerfn.canadacentral-01.azurewebsites.net/)
 
-This repository contains the source code for **Boredom Breaker**, an engaging web app that fetches activity suggestions using the **Bored API**. Users can receive random suggestions or filter activities by type and participants. The project focuses on working with **RESTful APIs**, **query parameters**, and **server-side API requests** using **Axios**, while also incorporating modern, responsive front-end design.
+This repository contains the source code for **Boredom Breaker**, an engaging web app that fetches activity suggestions using the **[Bored API](https://bored-api.appbrewery.com/)**. Users can receive random suggestions or filter activities by type and participants. The project focuses on working with **RESTful APIs**, **query parameters**, and **server-side API requests** using **Axios**, while also incorporating modern, responsive front-end design.
 
 ---
 
@@ -34,7 +34,7 @@ Link to **[Azure DevOps Project](https://dev.azure.com/Junaid-Arif/Boredom%20Bre
 
 - **Random Activity Suggestions**: Fetches a random activity when the page loads.
 - **Custom Activity Filtering**: Users can filter activities by type and number of participants.
-- **Server-Side API Requests**: Uses Axios to make server-side GET requests to the Bored API.
+- **Server-Side API Requests**: Uses Axios to make server-side GET requests to the [Bored API](https://bored-api.appbrewery.com/).
 - **Error Handling**: Displays custom error messages if no matching activities are found.
 - **Responsive Design**: Clean, modern UI that adapts across desktop and mobile devices.
 - **Dynamic Footer**: Displays the current year and author credit.
