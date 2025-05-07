@@ -94,8 +94,8 @@ The **Boredom Breaker** app is hosted on **Microsoft Azure App Service** with th
    - Used the following command (as provided by Azure DevOps):
 
      ```bash
-     git remote add origin https://Junaid-Arif@dev.azure.com/Junaid-Arif/Boredom%20Breaker/_git/Boredom%20Breaker
-     git push -u origin --all
+     git remote add azure https://Junaid-Arif@dev.azure.com/Junaid-Arif/Boredom%20Breaker/_git/Boredom%20Breaker
+     git push azure main
      ```
 
 5. **Push to Both Remotes**
