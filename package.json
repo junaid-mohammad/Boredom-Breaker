@@ -1,0 +1,30 @@
+{
+  "name": "5.3-axios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junaid-mohammad/Boredom-Breaker"
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": "Junaid Arif",
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "description": "A clean, responsive web app that fetches fun activities from a RESTful API using server-side requests. Built to practice API consumption, axios queries, and dynamic page rendering with EJS.",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
