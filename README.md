@@ -1,7 +1,7 @@
 # Boredom Breaker 🎯
 
 [![Azure DevOps](https://img.shields.io/badge/Deployed%20via-Azure%20DevOps-blue)](https://dev.azure.com/Junaid-Arif/Boredom%20Breaker)
-[![Azure App Service](https://img.shields.io/badge/Hosted%20on-Azure%20App%20Service-brightgreen)](boredom-breaker-gfdxgsbqfggnerfn.canadacentral-01.azurewebsites.net)
+[![Azure App Service](https://img.shields.io/badge/Hosted%20on-Azure%20App%20Service-brightgreen)](https://boredom-breaker-gfdxgsbqfggnerfn.canadacentral-01.azurewebsites.net/)
 
 This repository contains the source code for **Boredom Breaker**, an engaging web app that fetches activity suggestions using the **Bored API**. Users can receive random suggestions or filter activities by type and participants. The project focuses on working with **RESTful APIs**, **query parameters**, and **server-side API requests** using **Axios**, while also incorporating modern, responsive front-end design.
 
